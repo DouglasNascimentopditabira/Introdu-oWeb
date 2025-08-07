@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Filmes Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        .movie {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .movie-title {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meus Filmes Favoritos</h1>
+    <div class="gallery">
+        <div class="movie">
+            <a href="https://pt.wikipedia.org/wiki/Wanted_(filme)" target="_blank">
+                <img src="o_procurado.jpg" alt="O Procurado">
+            </a>
+            <div class="movie-title">O Procurado</div>
+        </div>
+        <div class="movie">
+            <a href="https://pt.wikipedia.org/wiki/Carros_(filme)" target="_blank">
+                <img src="carros.jpg" alt="Carros">
+            </a>
+            <div class="movie-title">Carros</div>
+        </div>
+        <div class="movie">
+            <a href="https://pt.wikipedia.org/wiki/The_Matrix" target="_blank">
+                <img src="matrix.jpg" alt="Matrix">
+            </a>
+            <div class="movie-title">Matrix</div>
+        </div>
+        <div class="movie">
+            <a href="https://pt.wikipedia.org/wiki/Interestelar" target="_blank">
+                <img src="interestelar.jpg" alt="Interestelar">
+            </a>
+            <div class="movie-title">Interestelar</div>
+        </div>
+        <div class="movie">
+            <a href="https://pt.wikipedia.org/wiki/Inception" target="_blank">
+                <img src="inception.jpg" alt="A Origem">
+            </a>
+            <div class="movie-title">A Origem</div>
+        </div>
+        <div class="movie">
+            <a href="https://pt.wikipedia.org/wiki/Os_Vingadores_(filme)" target="_blank">
+                <img src="vingadores.jpg" alt="Os Vingadores">
+            </a>
+            <div class="movie-title">Os Vingadores</div>
+        </div>
+    </div>
+</body>
+</html>
