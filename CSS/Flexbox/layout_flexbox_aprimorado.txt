@@ -1,0 +1,44 @@
+/* 1. Rodapé da seção principal com Flexbox */
+.main-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.main-footer a {
+    width: 120px;
+    text-align: center;
+}
+
+/* 2. Seção de benefícios com Flexbox */
+.benefits-section {
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.benefits-section .text {
+    width: 70%;
+}
+
+.benefits-section .title {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 3. Seção de participação com Flexbox */
+.participation-section {
+    display: flex;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.participation-section .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

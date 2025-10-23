@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - Douglas Nascimento</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#apresentacao">Apresentação</a></li>
+            <li><a href="#educacao">Educação</a></li>
+            <li><a href="#certificacoes">Certificações</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#habilidades">Habilidades Técnicas</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="apresentacao">
+        <h1>Douglas Muller Nascimento</h1>
+        <img src="Douglas.jfif" alt="Foto de Douglas" width="200">
+        <p>Telefone: (31) 9 8324-1910</p>
+        <p>Email: douglas.mullerr@icloud.com</p>
+        <p>Itabira / MG</p>
+        <p>Profissional atuando há 10 anos na área de manutenções elétricas, com vasta experiência. Atuação direta e completa em equipamentos de carregamento e infraestrutura de grande e pequeno porte; com ênfase em perfuratrizes convencionais e autônomas. Tendo também passado por segmentos de Elétrica Industrial em manutenções prediais e ponte rolante. Atuações pontuais ainda em liderança na substituição/ cobertura de líderes em situações de férias ou emergenciais, e tutoria de novos colaboradores do time.</p>
+        <p>Atualmente ainda na Vale, empresa pela qual tenho orgulho, atuo como inspetor de manutenção de perfuratriz. Me abro a novas possibilidades considerando crescimento, novos desafios, melhores ganhos, e uma jornada que possibilite aplicação do muito em conhecimentos e habilidades os quais adquiri nesta trajetória aqui, junto aos conteúdos de formação e atualização, e que ainda não pude executar. Quero também me aprimorar e aprofundar em novas tecnologias, equipamentos, inovações da área me fazendo um profissional da elétrica ainda mais completo.</p>
+    </header>
+
+    <section id="educacao">
+        <h2>Educação</h2>
+        <p>Bacharel em Engenharia de Produção - FUNCESI (2019)</p>
+        <p>Técnico em Eletroeletrônica - SENAI (2009)</p>
+    </section>
+
+    <section id="certificacoes">
+        <h2>Certificações</h2>
+        <ul>
+            <li><strong>Power BI</strong> – Udemy – 2021</li>
+            <li><strong>Aprendizagem em Elétrica Industrial</strong> – Senai – 2008</li>
+            <li><strong>Informática</strong> - Pacote Office</li>
+        </ul>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <h3>Vale S.A. (Maio/2011 – Atual)</h3>
+        <p>Inspetor de manutenção I</p>
+        <ul>
+            <li>Inspeção elétrica em perfuratriz convencionais e autônomas</li>
+            <li>Manutenção corretiva e preventiva em equipamentos de mina</li>
+            <li>Substituição de líderes</li>
+            <li>Gestão de materiais e ordens no sistema SAP</li>
+            <li>Tutor de novos colaboradores</li>
+        </ul>
+        <h3>MMP Serviços LTDA (Set/2010 – Abr/2011)</h3>
+        <p>Eletricista de Manutenção Eletroeletrônica</p>
+        <ul>
+            <li>Manutenções preventivas e corretivas elétricas prediais</li>
+            <li>Manutenção em ponte rolante</li>
+            <li>Manutenção em componentes eletrônicos como inversores de frequência e placas de circuito</li>
+        </ul>
+        <h3>Realma Manutenção e Serviços (Fev/2010 – Set/2010)</h3>
+        <p>Auxiliar de Serviços Gerais</p>
+        <ul>
+            <li>Adequação e limpeza de equipamentos de mina</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>Power BI</li>
+            <li>Pacote Office</li>
+            <li>Elétrica Industrial</li>
+            <li>Manutenção de equipamentos de mina</li>
+        </ul>
+    </section>
+
+    <footer id="contato">
+        <p>Redes sociais: <a href="https://www.linkedin.com/in/douglas-muller-nascimento-01830220b">LinkedIn</a></p>
+        <p>&copy; 2024 Douglas Nascimento</p>
+    </footer>
+</body>
+</html>

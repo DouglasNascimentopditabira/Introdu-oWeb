@@ -1,0 +1,19 @@
+
+/* Paleta de cores: Natureza Suave */
+body {
+    background-color: #e0f7e9; /* Cor de fundo */
+    color: #2e4d3f;            /* Cor da fonte */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #a3d9a5; /* Cor de destaque */
+}
+
+a {
+    color: #2e4d3f;
+}
+
+a:hover {
+    color: #a3d9a5;
+}

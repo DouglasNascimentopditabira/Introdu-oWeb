@@ -1,0 +1,102 @@
+
+/* Paleta de cores */
+:root {
+    --cor-fundo: #f4f4f4;
+    --cor-fonte: #333333;
+    --cor-destaque: #0077cc;
+}
+
+/* Estilos gerais */
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1280px;
+}
+
+a {
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005fa3;
+}
+
+a:visited {
+    font-weight: normal;
+}
+
+/* Banner */
+.banner {
+    background-color: var(--cor-destaque);
+    color: #ffffff;
+    padding: 1em;
+}
+
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits-section,
+.participation-section {
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.benefits-section .text {
+    width: 70%;
+}
+
+.benefits-section .title,
+.participation-section .item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.participation-section .item {
+    width: 50%;
+}
+
+/* Media query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .menu-designs {
+        position: static;
+        padding: 0;
+        border-right: none;
+    }
+
+    .flex-container,
+    .benefits-section,
+    .participation-section {
+        flex-direction: column;
+    }
+
+    header {
+        height: auto;
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+
+/* Media query para impressão */
+@media print {
+    body {
+        font-family: 'Times New Roman', serif;
+    }
+
+    .banner {
+        background-color: #ffffff;
+        color: var(--cor-fonte);
+    }
+}

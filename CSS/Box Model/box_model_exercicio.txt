@@ -1,0 +1,53 @@
+/* 1. Diretrizes gerais */
+body {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.introduction {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+/* 2. Cabeçalho */
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+header h1 {
+    padding-left: 1em;
+}
+
+/* 3. Menus */
+.menu-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-panel ul li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* 4. Rodapé */
+footer {
+    margin: 4%;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+footer a {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #ffffff;
+}

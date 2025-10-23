@@ -1,0 +1,52 @@
+
+Resolução dos Exercícios de CSS
+
+1. Cálculo do tamanho da fonte em pixels
+----------------------------------------
+
+Base:
+html { font-size: 20px; }
+
+a) h1
+html h1 { font-size: 2rem; }
+=> 2rem = 2 × 20px = 40px
+
+b) .principal dentro de h1
+h1 > .principal { font-size: 1.4em; }
+=> 1.4em = 1.4 × 40px = 56px
+
+c) .secundario
+html .secundario { font-size: 1.4rem; }
+=> 1.4rem = 1.4 × 20px = 28px
+
+Resumo:
+| Elemento       | Tamanho da Fonte |
+|----------------|------------------|
+| h1             | 40px             |
+| .principal     | 56px             |
+| .secundario    | 28px             |
+
+2. Variações da cor RGB rgb(219, 78, 68)
+----------------------------------------
+
+Cor original:
+R: 219, G: 78, B: 68
+
+15% mais clara:
+R: 219 + 15% = 252
+G: 78 + 15% = 90
+B: 68 + 15% = 78
+=> rgb(252, 90, 78)
+
+15% mais escura:
+R: 219 - 15% = 186
+G: 78 - 15% = 66
+B: 68 - 15% = 58
+=> rgb(186, 66, 58)
+
+Resumo:
+| Variação       | Cor RGB          |
+|----------------|------------------|
+| Original       | rgb(219, 78, 68) |
+| Mais clara     | rgb(252, 90, 78) |
+| Mais escura    | rgb(186, 66, 58) |

@@ -1,0 +1,34 @@
+Exercício 1: Mudar a cor dos links
+--------------------------------------------------
+a {
+  color: red; /* Cor padrão dos links */
+}
+
+a:hover {
+  color: lemonchiffon; /* Cor ao passar o mouse */
+}
+/* Nota: 'lemon' não é uma cor válida em CSS. Usamos 'lemonchiffon' como alternativa. */
+
+Exercício 2: Customizar parágrafos
+--------------------------------------------------
+p {
+  font-family: Arial, sans-serif; /* Fonte padrão para todos os parágrafos */
+}
+
+h1 + p {
+  font-weight: bold; /* Parágrafo logo após h1 em negrito */
+}
+
+Exercício 3: Estilizar a classe .destaque
+--------------------------------------------------
+.destaque {
+  font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+p.destaque {
+  font-weight: bold; /* Negrito se for parágrafo */
+}
+
+strong.destaque {
+  color: red; /* Vermelho se for <strong> */
+}
